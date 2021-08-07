@@ -1,0 +1,126 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10% 15% 5%;
+}
+
+.car-box {
+  padding: 30px;
+}
+
+#sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+
+@media only screen and (max-width: 991px)  {
+#sedan {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+#luxury {
+border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.container p {
+  padding-bottom: 5%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+#sedan {
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#luxury {
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.container p {
+  padding-bottom: 20%;
+}
+}
+
+#suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.headings {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 1.8rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.btn {
+  background: hsl(0, 0%, 95%);
+  border-radius: 100px;
+color: inherit;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  padding: 3% 10%;
+}
+
+
+#sedan .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+#sedan .btn:hover {
+  background-color: Transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+#suv .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+#suv .btn:hover {
+  background-color: Transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+#luxury .btn {
+  color: hsl(179, 100%, 13%);
+}
+
+#luxury .btn:hover {
+  background-color: Transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  padding: 10px 30px;
+}
